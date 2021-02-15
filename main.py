@@ -6,10 +6,10 @@ from AzureBlobFileDownloader import AzureBlobFileDownloader
 from AzureBlobFileUploader import AzureBlobFileUploader
 
 # 定数定義
-connection_string:str = r'DefaultEndpointsProtocol=https;AccountName=devblob20210127;AccountKey=2K3g3+iylnd2F8JhmWj+5K2pW8ttsfpbgigltu00tdBc1Bb1mSjosKkfZ8ni6Vx+bSjAcmuJa44FZK2EJ0qNgA==;EndpointSuffix=core.windows.net;'
-container_name:str = r'storage'
-download_path:str = r'input'
-upload_path:str = r'output'
+connection_string:str = r'<your connection string>'
+container_name:str = r'<your container name>'
+download_path:str = r'<your download folder path>'
+upload_path:str = r'<your upload folder path>'
 
 
 def main():
